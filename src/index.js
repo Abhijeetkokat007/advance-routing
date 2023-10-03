@@ -11,11 +11,11 @@ import ReadPost from "./Views/ReadPost/ReadPost";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/Home',
     element :  <Home/>
   },
   {
-    path: '/Post',
+    path: '/',
     element: <Posts/>
   },
   // {
